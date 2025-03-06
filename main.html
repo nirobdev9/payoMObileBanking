@@ -18,14 +18,14 @@
                     <img class="w-16" src="./assets/Group.png" alt="">
                 </div>
                 <div>
-                    <h3 class="text-3xl font-bold">$ <span>4500</span></h3>
+                    <h3 class="text-3xl font-bold">$ <span id="main-balance">4500</span></h3>
                     <p class="text-xl">Main balance</p>
                 </div>
 
                 <button class="btn">Log out </button>
             </div>
         </header>
-        <section class="px-2">
+        <section class="px-2 mt-10 ">
             <h1 class="text-2xl font-bold mb-2">🔥 Welcome to Payooo!</h1>
             <p>Enjoy easy and convenient financial services with us. Cashout charge is low and </p>
             <div>
@@ -35,32 +35,59 @@
                         <p class="text-xl font-semibold">Add Money</p>
                     </div>
                     <div class="border text-center py-4 rounded">
-                        <img class="w-8 mx-auto" src="./assets/money1.png" alt="">
-                        <p class="text-xl font-semibold">Add Money</p>
+                        <img class="w-8 mx-auto" src="./assets/wallet1.png" alt="">
+                        <p class="text-xl font-semibold">send money</p>
+                    </div>
+                    <div class="border text-center py-4 rounded">
+                        <img class="w-8 mx-auto" src="./assets/transaction1.png" alt="">
+                        <p class="text-xl font-semibold">cash out</p>
+                    </div>
+                    <div class="border text-center py-4 rounded">
+                        <img class="w-8 mx-auto" src="./assets/purse1.png" alt="">
+                        <p class="text-xl font-semibold">get bonus</p>
+                    </div>
+                    <div class="border text-center py-4 rounded">
+                        <img class="w-8 mx-auto" src="./assets/send1.png" alt="">
+                        <p class="text-xl font-semibold">Transactions</p>
                     </div>
                     <div class="border text-center py-4 rounded">
                         <img class="w-8 mx-auto" src="./assets/money1.png" alt="">
-                        <p class="text-xl font-semibold">Add Money</p>
+                        <p class="text-xl font-semibold">Pay Bill</p>
                     </div>
-                    <div class="border text-center py-4 rounded">
-                        <img class="w-8 mx-auto" src="./assets/money1.png" alt="">
-                        <p class="text-xl font-semibold">Add Money</p>
-                    </div>
-                    <div class="border text-center py-4 rounded">
-                        <img class="w-8 mx-auto" src="./assets/money1.png" alt="">
-                        <p class="text-xl font-semibold">Add Money</p>
-                    </div>
-                    <div class="border text-center py-4 rounded">
-                        <img class="w-8 mx-auto" src="./assets/money1.png" alt="">
-                        <p class="text-xl font-semibold">Add Money</p>
-                    </div>
+                  
                 </div>
+                <section>
+                    <h1 class="text-2xl font-bold mt-10 ">Add money</h1>
+                    <!-- add money form -->
+                    
+                    <div class="hero mt-20">
+                        <div class="hero-content flex flex-col ">
+                          </div>
+                          <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                            <div class="card-body">
+                              <fieldset class="fieldset">
+                                <label class="fieldset-label">Account number</label>
+                                <input id="add-money-number" type="number" class="input" placeholder="Type account number" />
+                                <label class="fieldset-label">Amount</label>
+                                <input id="add-money-amount" type="number" class="input" placeholder="Type your amount" />
+                                <label class="fieldset-label">Pin</label>
+                                <input id="pin-amount" type="number" class="input" placeholder="Type pin number" />
+                                <div><a class="link link-hover">Forgot password?</a></div>
+                                <button id="add-money-btn" class="btn btn-neutral bg-blue-600 mt-4">Add money</button>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </div>
+                       
+                </section>
             </div>
         </section>
 
 
 
     </section>
+    <script src="./js/addmoney.js"></script>
+    <script src="./js/utitlitites.js"></script>
 
 </body>
 
