@@ -30,18 +30,19 @@
             <p>Enjoy easy and convenient financial services with us. Cashout charge is low and </p>
             <div>
                 <div class="cards grid grid-cols-3 mt-10 gap-2">
-                    <div class="border text-center py-4 rounded">
+                    <div id="add-money" class="border text-center py-4 rounded">
                         <img class="w-8 mx-auto" src="./assets/money1.png" alt="">
                         <p class="text-xl font-semibold">Add Money</p>
+                    </div>
+                    <div id="cash-out" class="border text-center py-4 rounded">
+                        <img class="w-8 mx-auto" src="./assets/transaction1.png" alt="">
+                        <p class="text-xl font-semibold">cash out</p>
                     </div>
                     <div class="border text-center py-4 rounded">
                         <img class="w-8 mx-auto" src="./assets/wallet1.png" alt="">
                         <p class="text-xl font-semibold">send money</p>
                     </div>
-                    <div class="border text-center py-4 rounded">
-                        <img class="w-8 mx-auto" src="./assets/transaction1.png" alt="">
-                        <p class="text-xl font-semibold">cash out</p>
-                    </div>
+                   
                     <div class="border text-center py-4 rounded">
                         <img class="w-8 mx-auto" src="./assets/purse1.png" alt="">
                         <p class="text-xl font-semibold">get bonus</p>
@@ -56,7 +57,7 @@
                     </div>
                   
                 </div>
-                <section>
+                <section id="add-money-form">
                     <h1 class="text-2xl font-bold mt-10 ">Add money</h1>
                     <!-- add money form -->
                     
@@ -80,7 +81,8 @@
                         </div>
                        
                 </section>
-                <section>
+                <section id="cash-out-form">
+                    <h1 class="mt-10 text-2xl font-bold">Cash out</h1>
                     <div class="hero mt-20">
                         <div class="hero-content flex flex-col ">
                           </div>
@@ -88,13 +90,13 @@
                             <div class="card-body">
                               <fieldset class="fieldset">
                                 <label class="fieldset-label">Account number</label>
-                                <input id="add-cashout-number" type="number" class="input" placeholder="Type account number" />
-                                <label class="fieldset-label">Amount</label>
-                                <input id=" cashout-amount" type="number" class="input" placeholder="Type your amount" />
+                                <input id="add-cash-out-number" type="number" class="input" placeholder="Type account number" />
+                                <label class="fieldset-label">Cash out amount</label>
+                                <input id="cash-out-amount" type="number" class="input" placeholder="Type cash out amount" />
                                 <label class="fieldset-label">Pin</label>
-                                <input id="cashout-pin" type="number" class="input" placeholder="Type pin number" />
+                                <input id="cash-out-pin" type="number" class="input" placeholder="Type pin number" />
                                 <div><a class="link link-hover">Forgot password?</a></div>
-                                <button id=" cashout-btn" class="btn btn-neutral bg-blue-600 mt-4">Add money</button>
+                                <button id="cash-out-btn" class="btn btn-neutral bg-blue-600 mt-4">Cash out</button>
                               </fieldset>
                             </div>
                           </div>
@@ -109,6 +111,8 @@
     </section>
     <script src="./js/addmoney.js"></script>
     <script src="./js/utitlitites.js"></script>
+    <script src="./js/cashout.js"></script>
+    <script src="./js/toggle.js"></script>
 
 </body>
 

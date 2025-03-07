@@ -4,7 +4,10 @@ event.preventDefault()
  const pin = getElementByID("pin-amount");
  const amount = getElementByID("add-money-amount");
  const mainBalance = getInnerTextByID("main-balance");
- console.log(accountNumber, pin , amount)
+ if(amount<= 0){
+   alert("invalid amount")
+   return;
+ }
 
  if (accountNumber.toString().length === 11) {
     if (pin === 1234) {
